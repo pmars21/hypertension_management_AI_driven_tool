@@ -53,7 +53,7 @@ La recolección de datos se reanudó en agosto de 2021 tras su suspensión en ma
 
 | Variable | Variable Original | Descripción |
 |---|---|---|
-| `genero` | (RIAGENDR) | Género (Masculino, Femenino) |
+| `genero` | (RIAGENDR) | Género (Masculino=1, Femenino=2) |
 | `edad_anios` | (RIDAGEYR) | Edad en años al momento del cribado (truncada a 80 años) |
 | `edad_meses` | (RIDAGEMN / RIDEXAGM) | Edad en meses (para niños pequeños/jóvenes) |
 | `raza_etnia` | (RIDRETH1 / RIDRETH3) | Raza/origen hispano (Mexicano-Americano, Otro Hispano, Blanco No Hispano, Negro No Hispano, Asiático No Hispano, Otro/Multirracial) |

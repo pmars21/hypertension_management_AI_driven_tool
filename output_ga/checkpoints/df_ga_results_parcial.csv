@@ -1,0 +1,4 @@
+fitness_model,n_variables_originales,n_variables_seleccionadas,best_performance
+LogisticRegression,69,30,"{make_scorer(gmean_score, response_method='predict'): 0.682522165074246}"
+SVC,69,52,"{make_scorer(gmean_score, response_method='predict'): 0.6824592238801903}"
+RandomForest,69,45,"{make_scorer(gmean_score, response_method='predict'): 0.6694404793081845}"

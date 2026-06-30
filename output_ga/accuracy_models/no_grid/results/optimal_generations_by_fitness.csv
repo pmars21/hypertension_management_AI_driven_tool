@@ -1,0 +1,5 @@
+fitness_model,generacion_optima,mejor_g_mean,n_variables_en_generacion_optima
+SVC,28,0.6835515729900682,35
+LogisticRegression,68,0.6798091327747877,30
+RandomForest,7,0.6746129945070188,65
+DecisionTree_depth3,67,0.6448371525273262,20

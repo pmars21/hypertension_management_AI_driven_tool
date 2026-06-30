@@ -1,0 +1,5 @@
+fitness_model,generacion_optima,mejor_score
+SVC,38,0.6833698308697276
+LogisticRegression,44,0.6676584613617874
+DecisionTree_depth3,40,0.6660370782776374
+RandomForest,78,0.6634513993888994

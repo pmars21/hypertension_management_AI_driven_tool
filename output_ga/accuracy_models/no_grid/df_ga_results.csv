@@ -1,0 +1,5 @@
+fitness_model,n_variables_originales,n_variables_seleccionadas,best_performance
+LogisticRegression,69,30,{'accuracy': 0.6798091327747877}
+SVC,69,35,{'accuracy': 0.6835515729900682}
+RandomForest,69,65,{'accuracy': 0.6746129945070188}
+DecisionTree_depth3,69,20,{'accuracy': 0.6448371525273262}

@@ -1,0 +1,5 @@
+modelo,grid_scoring,best_cv_score,accuracy_test,f1_test,best_params
+LogisticRegression,f1,0.6407029954295599,0.6510416666666666,0.6228893058161351,"{'C': 0.1, 'penalty': 'l1'}"
+RandomForest,f1,0.6412421239647454,0.6302083333333334,0.5988700564971752,"{'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
+SVC,f1,0.6617900054549046,0.6163194444444444,0.632279534109817,"{'C': 0.1, 'gamma': 'scale'}"
+DecisionTree_depth3,f1,0.5969869057252964,0.6024305555555556,0.656671664167916,"{'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}"

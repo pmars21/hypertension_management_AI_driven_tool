@@ -1,0 +1,5 @@
+fitness_model,n_variables_originales,n_variables_seleccionadas,best_performance
+LogisticRegression,69,24,{'f1': 0.6676584613617874}
+SVC,69,26,{'f1': 0.6833698308697276}
+RandomForest,69,40,{'f1': 0.6634513993888994}
+DecisionTree_depth3,69,12,{'f1': 0.6660370782776374}

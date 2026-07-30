@@ -1,3 +1,15 @@
+# Hypertension Management AI-Driven Tool
+
+## Descripción del proyecto
+
+Este proyecto implementa un flujo de trabajo completo de ciencia de datos centrado en la estimación del riesgo de hipertensión a partir de los datos de la NHANES (Encuesta Nacional de Examen de Salud y Nutrición). El proyecto combina la preparación de datos, el análisis exploratorio, la ingeniería de características, la selección de características, el entrenamiento de modelos y la puntuación de probabilidad en un proceso reproducible de estilo investigativo centrado en los factores clínicos y de estilo de vida relacionados con la presión arterial.
+
+El proyecto utiliza múltiples componentes de NHANES (módulos demográficos, de exploración, de laboratorio y dietéticos) y los fusiona en un conjunto de datos analítico unificado. Las fuentes de datos sin procesar se organizan en la carpeta `/data`, incluyendo diccionarios, subconjuntos fusionados, divisiones de entrenamiento y prueba, y archivos de apoyo. Un script de utilidad (`/data/xpt/convert_xpt_to_csv.py`) permite convertir archivos XPT de NHANES a formato CSV, lo que facilita su incorporación al flujo de trabajo del cuaderno.
+
+El preprocesamiento de los datos se realiza en gran medida a través de cuadernos de trabajo. Las tareas clave de preprocesamiento incluyen el tratamiento de valores nulos, la imputación mediante estrategias iterativas basadas en árboles al estilo de MissForest (`missForest_imp_tfm.ipynb`) y la preparación de archivos de entrenamiento y prueba, como `train_imputado.csv` y `test_imputado.csv`. El repositorio también incluye varios cuadernos exploratorios para el análisis por dominio (`/analisis_mergedSets`) y experimentos de agrupamiento (`/clustering`) con el fin de comprender mejor la estructura, la separabilidad y el comportamiento de las características antes de la modelización supervisada.
+
+Para la modelización predictiva, el proyecto aplica una selección de características basada en algoritmos genéticos (GA) utilizando pyWinEA 
+
 # Resumen del Dataset: NHANES Merged Dataset (merged_all.csv)
 
 ## Información General
